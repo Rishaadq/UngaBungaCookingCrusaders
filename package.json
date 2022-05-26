@@ -1,0 +1,25 @@
+{
+  "name": "ungabungacookingcrusaders",
+  "version": "1.0.0",
+  "description": "UngaBungaCookingCrusaders package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "echo \"Now starting Cooking Crusaders server! MAIN PAGE URL: localhost:8080/pages/introPage.xhtml\"",
+    "start": "http-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishaadq/UngaBungaCookingCrusaders.git"
+  },
+  "author": "Rishaad, Justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishaadq/UngaBungaCookingCrusaders/issues"
+  },
+  "homepage": "https://github.com/Rishaadq/UngaBungaCookingCrusaders#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
