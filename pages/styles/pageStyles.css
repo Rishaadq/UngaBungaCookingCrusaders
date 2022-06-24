@@ -33,6 +33,30 @@ h1, h3 {
     color: white;
 }
 
+#times-sirloin {
+    text-align: center;
+    background-color: brown;
+    color: black;
+}
+
+#times-quesadilla {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
+
+#times-aglio {
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+
+#times-spicy {
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
 #food-img {
     display: block;
     margin-left: auto;
