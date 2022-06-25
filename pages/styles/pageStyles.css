@@ -1,13 +1,24 @@
 title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    text-align: center;
 }
 
-h1, h3 {
+
+
+h1 {
+    text-align: center;
     text-decoration: underline;
 }
+
+h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
 /* This is where all the table styles start */
+
+hr {
+    margin-bottom: 30px;
+}
 #times {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
@@ -17,7 +28,7 @@ h1, h3 {
 }
 
 #times td, #times th {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 8px;   
 }
 
@@ -28,7 +39,6 @@ h1, h3 {
 }
 
 #times-daal {
-    text-align: center;
     background-color: orange;
     color: white;
 }
@@ -63,14 +73,17 @@ h1, h3 {
     margin-right: auto;
     height: 30%;
     width: 30%;
+    border: 6px outset black;
+    border-radius: 20px;
 }
 
 #intro-paragraph {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #recipe-intro {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
