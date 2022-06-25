@@ -29,6 +29,8 @@
 table.recipe-list .daal #daal, table.recipe-list .agliopasta #agliopasta  {
     height: 40%;
     width: 40%;
+    border: 3px outset black;
+    border-radius: 20px;
 }
 
 table.recipe-list .butter-chicken #butter-chicken, 
@@ -37,6 +39,8 @@ table.recipe-list .quesadilla #quesadilla,
 table.recipe-list .spicy-pork-belly #spicy-pork-belly  {
     height: 30%;
     width: 30%;
+    border: 3px outset black;
+    border-radius: 20px;
 }
 
 
