@@ -2,6 +2,8 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
+
+
 <head>
    <link rel="stylesheet" href="styles/introPage.css"/>
    <title>UngaBungaCookingCrusaders</title>
@@ -17,12 +19,41 @@
    <img id="cooking-crusader" src="../images/cooking-crusader.png" alt="Cooking Crusader"/>
    <br></br>
    <h3 id="recipes-intro">Here is a list of some of our recipes that are nothing short of MASSIVE RESPECT AND GAINS:</h3>
-
+   <div class="search-wrapper">
+      <label for="search"><h3>Search Recipes</h3></label>
+      <input type="search" id="search"/>
+   </div>
+   <div class="grid-container">
+      <ul id ="recipe-list">
+         <li class = "recipe-info"> 
+            <img src="" alt="Sample Image"/>
+            <div class="header">Daal</div>
+         </li>
+         <li class = "recipe-info">  
+            <img src="" alt="Sample Image"/>
+            <div class="header">Butter Chicken</div> 
+         </li>
+         <li class = "recipe-info"> 
+            <img src="" alt="Sample Image"/>
+            <div class="header">Sirloin Steak</div>
+         </li>
+         <li class = "recipe-info"> 
+            <img src="" alt="Sample Image"/>
+            <div class="header">Recipe Name</div>
+         </li>
+         <li class = "recipe-info"> 
+            <img src="" alt="Sample Image"/>
+            <div class="header">Recipe Name</div>
+         </li>
+      </ul>
+   </div>
+   <script src="introPage.js"></script> 
+   <!--
    <table class="recipe-list">
       <tr>
          <td>
             <div class="daal">
-               <img id="daal" style="height: 40%; width: 40%;" src="../images/daal.jpg" alt="Masoor Daal"/>
+               
                <h4> <a href="daal.xhtml">Daal</a></h4>
             </div>
          </td>
@@ -60,5 +91,6 @@
          </td>
       </tr>
    </table>
+    -->
 </body>
 </html>
