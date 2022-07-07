@@ -19,27 +19,11 @@
 }
 
 
-table.recipe-list .daal #daal, table.recipe-list .agliopasta #agliopasta  {
-    height: 40%;
-    width: 40%;
-    border: 3px outset black;
-    border-radius: 20px;
-}
-
-table.recipe-list .butter-chicken #butter-chicken, 
-table.recipe-list .sirloin-steak #sirloin-steak, 
-table.recipe-list .quesadilla #quesadilla, 
-table.recipe-list .spicy-pork-belly #spicy-pork-belly  {
-    height: 30%;
-    width: 30%;
-    border: 3px outset black;
-    border-radius: 20px;
-}
 
 .search-wrapper {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     margin: auto;
     padding-bottom: 1rem;
 }
@@ -57,26 +41,32 @@ input {
 
 .grid-container {
     display: flex;
+    flex-direction: column;
 }
 
 #recipe-list {
+    width: 30%;
     margin: auto;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
+    gap: 4rem;
     margin-top: 1rem;
     list-style-type: none;
 } 
 
 .recipe-info {
-    border: 1px solid black;
-    background-color: white;
-    padding: 0.5rem;
-    align-items: center;
-    justify-items: center;
+    border: 2px outset black;
+    border-radius: 10px;
 }
 
+.recipe-info > img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    font-size: 150%;
+}
 .hide {
     display: none;
 }
