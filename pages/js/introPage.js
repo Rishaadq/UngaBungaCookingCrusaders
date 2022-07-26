@@ -1,3 +1,4 @@
+const swup = new Swup();
 
 function createRecipeList(recipeListCollection, recipes) {
     for(i= 0; i < recipeListCollection.length; i++) {
@@ -24,5 +25,6 @@ const recipeListChildren = recipeHTMLList.children;
 var recipes = []; 
 var recipeList = createRecipeList(recipeListChildren, recipes);
 const searchInput = document.querySelector('#search');
+
 
 recipeSearch(searchInput, recipes);
