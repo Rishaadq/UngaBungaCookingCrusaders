@@ -1,5 +1,3 @@
-
-
 const anchor = document.getElementById("scroll-to-top");
 
 function scrollToTop() {
