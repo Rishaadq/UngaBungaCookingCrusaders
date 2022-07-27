@@ -1,4 +1,11 @@
-const swup = new Swup();
+//const swup = new Swup();
+window.onload = () => {
+    const transition_el = document.querySelector('.transition');
+    setTimeout(() => {
+        transition_el.classList.remove('is-active');
+    }, 500);
+}
+
 
 function createRecipeList(recipeListCollection, recipes) {
     for(i= 0; i < recipeListCollection.length; i++) {
