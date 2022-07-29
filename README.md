@@ -1,10 +1,8 @@
 # UngaBungaCookingCrusaders
 
 Collaborators:
-Rishaad Quaiser - 300129321
-
-
-Justin Chun - 
+-Rishaad Quaiser - 300129321
+-Justin Chun - 
 
 
 To save college students from regularly using convenience store food....
