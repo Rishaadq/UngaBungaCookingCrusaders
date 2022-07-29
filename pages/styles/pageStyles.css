@@ -3,6 +3,16 @@ title {
     font-weight: bold;
 }
 
+/* Transition Animcation */
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
 
 
 h1 {
@@ -14,8 +24,8 @@ h3 {
     text-decoration: underline;
     padding-bottom: 10px;
 }
-/* This is where all the table styles start */
 
+/* This is where all the table styles start */
 hr {
     margin-bottom: 30px;
 }

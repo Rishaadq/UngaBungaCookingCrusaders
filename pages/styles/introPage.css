@@ -9,17 +9,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Transition Animcation */
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-
 /* Images */
 #cooking-crusader {
     display: block; 
